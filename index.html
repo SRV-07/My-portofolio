@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portofolio Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Sourav's Portofolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Sourav</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="button">
+            <button class="btn">Download Resume</button>
+            <button class="btn"> Github</button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="Development.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="html.png" alt="" />
+            <div class="vertical-title">HTML Developer (18-19)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+              dolore asperiores eveniet cumque esse expedita repellat explicabo
+              nostrum nam ea itaque, culpa dolores dolorum sint corporis tempore
+              exercitationem impedit amet?
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="css.png" alt="" />
+            <div class="vertical-title">CSS Developer (19-20)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+              dolore asperiores eveniet cumque esse expedita repellat explicabo
+              nostrum nam ea itaque, culpa dolores dolorum sint corporis tempore
+              exercitationem impedit amet?
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="javascript.png" alt="" />
+            <div class="vertical-title">JavaScript Developer (21-23)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+              dolore asperiores eveniet cumque esse expedita repellat explicabo
+              nostrum nam ea itaque, culpa dolores dolorum sint corporis tempore
+              exercitationem impedit amet?
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="react.png" alt="" />
+            <div class="vertical-title">React Developer (23-24)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+              dolore asperiores eveniet cumque esse expedita repellat explicabo
+              nostrum nam ea itaque, culpa dolores dolorum sint corporis tempore
+              exercitationem impedit amet?
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="node js.png" alt="" />
+            <div class="vertical-title">NodeJs Developer (2024)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+              dolore asperiores eveniet cumque esse expedita repellat explicabo
+              nostrum nam ea itaque, culpa dolores dolorum sint corporis tempore
+              exercitationem impedit amet?
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Sourav's Developer Portofolio</h3>
+        </div>
+        <div class="footer-second">
+            <ul>
+              <li>Home</li>
+              <li>About</li>
+              <li>Services</li>
+              <li>Contact</li>
+            </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-rights">
+        www.SouravPortofolio.com
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Full Stack Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
